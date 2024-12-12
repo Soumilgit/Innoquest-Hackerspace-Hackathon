@@ -10,7 +10,7 @@ A gamified, data-driven website for urban Indian communities to track and reduce
 
 # Folder structure
 Below, you can find the folder structure:
-```
+``` 
 ├─ .gitignore
 ├─ CODE_OF_CONDUCT.md
 ├─ CONTRIBUTING.md
@@ -114,7 +114,6 @@ Below, you can find the folder structure:
 │     └─ vendor.zip
 ├─ connection.php
 ├─ controllerUserData.php
-├─ firebase.json
 ├─ forgot-password.php
 ├─ form.php
 ├─ index.html
@@ -151,6 +150,9 @@ Below, you can find the folder structure:
 ├─ pickup.css
 ├─ pickup.html
 ├─ pickup.php
+├─ powerBI_File
+│  ├─ t
+│  └─ waste management project.pbix
 ├─ reset-code.php
 ├─ signup-user.php
 ├─ style.css
