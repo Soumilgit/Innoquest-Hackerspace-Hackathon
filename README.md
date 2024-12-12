@@ -1,68 +1,156 @@
-# [Waste Management System](https://waste-managemnt-system.000webhostapp.com/)
+# Innoquest-Hackerspace
+Idea : Develop a data-driven dashboard and mobile app to help urban communities in India track, manage, and reduce household waste. Users input their daily waste data (segregation, recycling, composting), and the app provides visual insights, waste reduction tips, and progress reports. Leverage local municipal data to highlight the community’s collective impact. Gamify the experience with badges, competitions between neighborhoods, and rewards for sustainable practices. Include integration with local recyclers or waste-pickup services for seamless adoption.
+# Team Members
+<p>
+   <br>1.Soumil Mukhopadhyay(Team Leader)</br>
+   <br>2.Rohit Prajapati</br>
+   <br>3.Nimish Vadgaonkar</br>
+   <br>4.Yash Pathak</br>
+</p>
 
-In today's world, effective waste management is of paramount importance. The increasing volume of waste poses significant challenges to the environment and public health. Proper waste management not only mitigates these challenges but also promotes resource reuse and recycling. The Waste Management System is a digital platform designed to streamline the process of reporting waste-related issues to municipal authorities.
-
-### Features:
-
-1. **Report Complaints:** Users can easily report waste or garbage problems in their vicinity to their respective municipalities through the platform.
-2. **Track Complaint Status:** Users can monitor the status of their complaints and check whether they have been addressed by the authorities.
-3. **Recycling Ideas:** The platform also provides information and ideas on waste recycling, fostering environmental awareness among users.
-
-By simplifying the process of reporting waste issues, the Waste Management System aims to facilitate prompt action by municipal authorities, contributing to cleaner and healthier communities.
-
-### Acknowledgment:
-
-Special thanks and credits to [@janakbist](https://github.com/janakbist/), thank you for this sir.
-
-### Requirements:
-
-To set up the project locally, you'll need:
-
-- XAMPP/WAMP or LAMP (for Linux) installed on your system.
-- PHPMyAdmin, MySQL Database, and Apache web server configured.
-- Basic understanding of web development and database management.
-
-### Local Setup Instructions:
-
-1. **Fork Repository:**
-   - Click on the "Fork" button at the top right corner of this repository to create your copy.
-
-2. **Clone Repository:**
-   - Open your terminal.
-   - Navigate to your XAMPP/WAMP/LAMP directory (`C:/xampp/htdocs` by default).
-   - Run the following command:
-     ```bash
-     git clone https://github.com/your-username/Waste-Management-System.git
-     ```
-
-3. **Database Setup:**
-   - Open your web browser and go to [phpMyAdmin](http://localhost/phpmyadmin/).
-   - Import the `wms.sql` file to create the necessary database tables.
-
-4. **Run the Application:**
-   - Launch your web browser.
-   - Enter the following URL:
-     ```
-     http://localhost/Waste-Management-System/
-     ```
-   This will open the homepage of the application.
-
-5. **Contribute:**
-   - Explore the codebase, make changes, and contribute to the project.
-   - Submit pull requests with your enhancements and fixes. Your contributions are highly appreciated!
-
-## Thanks to all contributors ❤
-
-Thanks to all the contributors who have helped improve this project. 
-
- <a href = "https://github.com/imlakshay08/waste-management-system/graphs/contributors">
-   <img src = "https://contrib.rocks/image?repo=imlakshay08/waste-management-system"/>
- </a>
- 
-[View Contributors](https://github.com/imlakshay08/waste-management-system/graphs/contributors)
-
-### Additional Resources:
-
-- [Learning Resources](LEARN.md): Explore tutorials, guides, and documentation to learn more about the Waste Management System project and related technologies.
-- [Contributing Guidelines](CONTRIBUTING.md): Read the guidelines for contributing to the Waste Management System project and how you can get involved.
-- [Code of Conduct](CODE_OF_CONDUCT.md): Review the Code of Conduct to understand the expected behavior and guidelines for participating in the Waste Management System community.
+# Folder structure
+Below, you can find the folder structure:
+``` 
+├─ .gitignore
+├─ CODE_OF_CONDUCT.md
+├─ CONTRIBUTING.md
+├─ LEARN.md
+├─ LICENSE
+├─ README.md
+├─ SECURITY.md
+├─ adminlogin
+│  ├─ Capture.PNG
+│  ├─ admindelete.php
+│  ├─ connection.php
+│  ├─ delete.php
+│  ├─ e
+│  ├─ hosts.txt
+│  ├─ images.jfif
+│  ├─ index.php
+│  ├─ login.css
+│  ├─ login.php
+│  ├─ logout.php
+│  ├─ session.php
+│  ├─ status.php
+│  ├─ styleupdate.css
+│  ├─ update.php
+│  └─ welcome.php
+├─ adminsignup
+│  ├─ Capture.PNG
+│  ├─ admindelete.php
+│  ├─ adminlogin.php
+│  ├─ connection.php
+│  ├─ controllerUserData.php
+│  ├─ forgot-password.php
+│  ├─ images.jfif
+│  ├─ index.php
+│  ├─ logout-user.php
+│  ├─ new-password.php
+│  ├─ password-changed.php
+│  ├─ reset-code.php
+│  ├─ signup-user.php
+│  ├─ status.php
+│  ├─ style.css
+│  ├─ styleupdate.css
+│  ├─ user-otp.php
+│  ├─ wavestyle.css
+│  └─ y
+├─ assets
+│  ├─ css
+│  │  ├─ style.css
+│  │  └─ t
+│  ├─ g
+│  ├─ img
+│  │  ├─ Medical-Waste.jpg
+│  │  ├─ apple-touch-icon.png
+│  │  ├─ clients
+│  │  │  ├─ Capture.PNG
+│  │  │  ├─ client-1.png
+│  │  │  ├─ client-2.png
+│  │  │  ├─ client-3.png
+│  │  │  ├─ client-4.png
+│  │  │  ├─ client-5.png
+│  │  │  ├─ client-6.png
+│  │  │  ├─ download (1).jfif
+│  │  │  ├─ download (2).jfif
+│  │  │  ├─ download (3).jfif
+│  │  │  ├─ download.jfif
+│  │  │  ├─ g
+│  │  │  ├─ images (1).png
+│  │  │  └─ images.png
+│  │  ├─ cta-bg.jpg
+│  │  ├─ favicon.png
+│  │  ├─ g
+│  │  ├─ hero-img.png
+│  │  ├─ portfolio
+│  │  │  ├─ g
+│  │  │  ├─ portfolio-1.jpg
+│  │  │  ├─ portfolio-2.jpg
+│  │  │  ├─ portfolio-3.jpg
+│  │  │  ├─ portfolio-4.jpg
+│  │  │  ├─ portfolio-5.jpg
+│  │  │  ├─ portfolio-6.jpg
+│  │  │  ├─ portfolio-7.jpg
+│  │  │  ├─ portfolio-8.jpg
+│  │  │  ├─ portfolio-9.jpg
+│  │  │  ├─ portfolio-details-1.jpg
+│  │  │  ├─ portfolio-details-2.jpg
+│  │  │  └─ portfolio-details-3.jpg
+│  │  ├─ recycling.jpeg
+│  │  ├─ recycling5.png
+│  │  ├─ skills.png
+│  │  ├─ team
+│  │  │  ├─ t
+│  │  │  ├─ team-1.jpg
+│  │  │  ├─ team-2.jpg
+│  │  │  ├─ team-3.jpg
+│  │  │  └─ team-4.jpg
+│  │  └─ why-us.png
+│  ├─ js
+│  │  ├─ j
+│  │  └─ main.js
+│  └─ vendor
+│     ├─ t
+│     └─ vendor.zip
+├─ connection.php
+├─ controllerUserData.php
+├─ firebase.json
+├─ forgot-password.php
+├─ index.html
+├─ login-user.php
+├─ logout-user.php
+├─ new-password.php
+├─ password-changed.php
+├─ phpGmailSMTP
+│  ├─ PHPMailerAutoload.php
+│  ├─ class.phpmailer.php
+│  ├─ class.phpmaileroauth.php
+│  ├─ class.phpmaileroauthgoogle.php
+│  ├─ class.pop3.php
+│  ├─ class.smtp.php
+│  ├─ contact.css
+│  ├─ contact.php
+│  ├─ contact_us.sql
+│  ├─ database.inc
+│  ├─ formValidation.js
+│  ├─ get_oauth_token.php
+│  ├─ images.jfif
+│  ├─ language
+│  │  ├─ index.html
+│  │  └─ t
+│  ├─ style.css
+│  ├─ trash.php
+│  ├─ upload
+│  │  ├─ Capture.PNG
+│  │  ├─ env.jpg
+│  │  ├─ images (1).png
+│  │  ├─ images.jpg
+│  │  └─ t
+│  └─ y
+├─ reset-code.php
+├─ signup-user.php
+├─ style.css
+├─ user-otp.php
+├─ wavestyle.css
+└─ wms.sql
+```
