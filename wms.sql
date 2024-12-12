@@ -207,3 +207,24 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+CREATE TABLE waste_pickup_requests (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    phone VARCHAR(20),
+    pickup_date DATE,
+    pickup_time TIME,
+    address TEXT,
+    specific_details TEXT,
+    waste_type VARCHAR(255),
+    waste_quantity VARCHAR(255),
+    PRIMARY KEY (id)
+);
+CREATE TABLE waste_details (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    waste_type VARCHAR(50) NOT NULL,
+    quantity DECIMAL(10, 2) NOT NULL,
+    date DATE NOT NULL
+);
