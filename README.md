@@ -1,5 +1,5 @@
 # Innoquest-Hackerspace
-Idea : Develop a data-driven dashboard and mobile app to help urban communities in India track, manage, and reduce household waste. Users input their daily waste data (segregation, recycling, composting), and the app provides visual insights, waste reduction tips, and progress reports. Leverage local municipal data to highlight the community’s collective impact. Gamify the experience with badges, competitions between neighborhoods, and rewards for sustainable practices. Include integration with local recyclers or waste-pickup services for seamless adoption.
+A gamified, data-driven website for urban Indian communities to track and reduce household waste. Features include daily waste logging (organic{like paper},plastic, metal-inorganic, etc.), progress analytics, option to complain regarding wastage issues in any location, scheduling pickups, a PowerBI dashboard and a waste reporting form creation. Visualize individual and community impact with interactive graphs and a comparison of state-wise waste management data . Integrates with local recyclers and waste-pickup services for seamless adoption. Offers educational resources and track milestones to encourage sustainable habits. Foster eco-friendly practices while highlighting collective environmental contributions through engaging insights and gamification.
 # Team Members
 <p>
    <br>1.Soumil Mukhopadhyay(Team Leader)</br>
@@ -10,7 +10,7 @@ Idea : Develop a data-driven dashboard and mobile app to help urban communities 
 
 # Folder structure
 Below, you can find the folder structure:
-``` 
+```
 ├─ .gitignore
 ├─ CODE_OF_CONDUCT.md
 ├─ CONTRIBUTING.md
@@ -116,6 +116,7 @@ Below, you can find the folder structure:
 ├─ controllerUserData.php
 ├─ firebase.json
 ├─ forgot-password.php
+├─ form.php
 ├─ index.html
 ├─ login-user.php
 ├─ logout-user.php
@@ -147,6 +148,9 @@ Below, you can find the folder structure:
 │  │  ├─ images.jpg
 │  │  └─ t
 │  └─ y
+├─ pickup.css
+├─ pickup.html
+├─ pickup.php
 ├─ reset-code.php
 ├─ signup-user.php
 ├─ style.css
