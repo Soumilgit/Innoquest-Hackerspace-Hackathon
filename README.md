@@ -10,12 +10,15 @@ A gamified, data-driven website for urban Indian communities to track and reduce
 
 # Folder structure
 Below, you can find the folder structure:
-``` 
+```
+📦 
 ├─ .gitignore
 ├─ CODE_OF_CONDUCT.md
 ├─ CONTRIBUTING.md
 ├─ LEARN.md
 ├─ LICENSE
+├─ Project-Presentation
+│  └─ Empowering-Urban-Communities (2).pdf
 ├─ README.md
 ├─ SECURITY.md
 ├─ adminlogin
@@ -64,24 +67,29 @@ Below, you can find the folder structure:
 │  │  ├─ Medical-Waste.jpg
 │  │  ├─ apple-touch-icon.png
 │  │  ├─ clients
-│  │  │  ├─ Capture.PNG
+│  │  │  ├─ Capt.PNG
 │  │  │  ├─ client-1.png
 │  │  │  ├─ client-2.png
 │  │  │  ├─ client-3.png
 │  │  │  ├─ client-4.png
 │  │  │  ├─ client-5.png
 │  │  │  ├─ client-6.png
+│  │  │  ├─ dabadaba.png
+│  │  │  ├─ down .png
 │  │  │  ├─ download (1).jfif
 │  │  │  ├─ download (2).jfif
 │  │  │  ├─ download (3).jfif
 │  │  │  ├─ download.jfif
 │  │  │  ├─ g
-│  │  │  ├─ images (1).png
-│  │  │  └─ images.png
+│  │  │  ├─ imageo.png
+│  │  │  ├─ images.png
+│  │  │  ├─ oper.png
+│  │  │  └─ opr.png
 │  │  ├─ cta-bg.jpg
 │  │  ├─ favicon.png
 │  │  ├─ g
 │  │  ├─ hero-img.png
+│  │  ├─ logoi.png
 │  │  ├─ portfolio
 │  │  │  ├─ g
 │  │  │  ├─ portfolio-1.jpg
@@ -105,6 +113,7 @@ Below, you can find the folder structure:
 │  │  │  ├─ team-2.jpg
 │  │  │  ├─ team-3.jpg
 │  │  │  └─ team-4.jpg
+│  │  ├─ tps.png
 │  │  └─ why-us.png
 │  ├─ js
 │  │  ├─ j
@@ -157,6 +166,7 @@ Below, you can find the folder structure:
 ├─ signup-user.php
 ├─ style.css
 ├─ user-otp.php
+├─ waste management project.pbix
 ├─ wavestyle.css
 └─ wms.sql
 ```
